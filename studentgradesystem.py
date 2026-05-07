@@ -11,3 +11,4 @@ average = total/subject
 print("STUDENT: " , name)
 print("TOTAL MARKS: ", total)
 print("AVERAGE: " , average)
+
