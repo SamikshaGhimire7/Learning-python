@@ -28,5 +28,3 @@ print(min(sun))
 max(sun)
 print(max(sun))
  
- 
-print("Samiksha Ghimire")
