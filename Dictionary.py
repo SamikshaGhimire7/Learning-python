@@ -1,25 +1,18 @@
-students = {
-    "student1": {"name": "Sammy", "age": 20},
-    "student2": {"name": "sammy", "age": 19}
+country = {
+"Nepal" : "Kathmandu" ,
+"India" : "New Delhi",
+"Japan" : "Tokyo",
+"France" : "Paris",
+"Australia" : "Canberra"
 }
-
-print(students["student1"]["name"])  
-print(students["student2"]["age"])   
-
-
-for key, value in students.items():
-    print(key, ":", value)
+for key in country.keys():
+    print(key)
     
+for value in country.values():
+    print(value)
     
-    
-person = {
-    "name": "sammy",
-    "hobbies": ["coding", "gaming", "music"]
-}
-
-print(person["hobbies"])      
-print(person["hobbies"][0])   
-
-# add new hobby
-person["hobbies"].append("cooking")
-print(person["hobbies"])
+name = input("Dear user please enter a country name: ")
+if name in country:
+    print("yes it is present in dictionary")
+else:
+    print("No country you name is not present there")
